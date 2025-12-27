@@ -1,9 +1,14 @@
-import { Layout } from "./stylesContainer,js";
+import { Layout } from "./stylesContainer.js";
 
 function Container({ children }) {
   return (
     <>
-      <Layout>{children}</Layout>
+      <Layout>
+        
+        {children}
+
+        
+      </Layout>
     </>
   );
 }

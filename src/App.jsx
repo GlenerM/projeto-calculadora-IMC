@@ -1,15 +1,15 @@
 import BoasVindas from "./pages/BoasVindas.jsx";
-import Campos from "./components/Campos.jsx";
-import Resultados from "./components/Resultados.jsx";
-import Container from "./Layout/Container.jsx";
+import TelaCampos from "./components/TelaCampos.jsx";
+import TelaResultados from "./components/TelaResultados.jsx";
+import Container from "./layout/Container.jsx";
 
 function App() {
   return (
     <>    
       <Container>
         <BoasVindas />
-        <Campos />
-        <Resultados />
+        <TelaCampos />
+       <TelaResultados/>
       </Container>
     </>
   );
